@@ -149,9 +149,10 @@ span {
     color: hsl(166, 100%, 37%);
 }
 
-i {
-    font-size: 20px;
-    padding-right: 5px;
+img {
+    width: 18px;
+    margin-bottom: -4px;
+    padding-right: 4px;
 }
 
 button {
