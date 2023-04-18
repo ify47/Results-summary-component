@@ -3,7 +3,7 @@
     src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 
-body{
+body {
     font-family: Hanken;
     background-color: hsl(0, 0%, 100%);
     display: flex;
@@ -14,66 +14,64 @@ body{
     overflow: hidden;
 }
 
-.container{
+.container {
     display: flex;
     background-color: white;
-    box-shadow: 
-    -10px -10px 15px rgba(255, 255, 255, 0.5),
-     15px 1px 15px rgba(75, 75, 168, 0.12);
+    box-shadow:
+        -10px -10px 15px rgba(255, 255, 255, 0.5),
+        15px 1px 15px rgba(75, 75, 168, 0.12);
     border-radius: 20px;
     box-shadow: 1px;
+    /* width: 50%; */
 }
 
-.result{
-    background: linear-gradient(
-        hsl(252, 100%, 67%),
-       hsl(241, 81%, 54%)
-    );
+.result {
+    background: linear-gradient(hsl(252, 100%, 67%),
+            hsl(241, 81%, 54%));
     text-align: center;
-    width: 280px;
+    width: 330px;
+    height: 444px;
     border-radius: 20px;
 }
 
-.result h2{
+.result h2 {
     color: hsl(241, 100%, 89%);
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
-.result h1{
+.result h1 {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 40px;
 }
 
-.result p{
+.result p {
     color: hsl(241, 100%, 89%);
-    font-size: 13px;
-    margin: 50px;
-    margin-top: 10px;
+    font-size: 14px;
+    margin: 71px;
+    margin-top: 20px;
 }
 
-.circle{
-background: linear-gradient(
-    hsla(256, 72%, 46%, 1),
-    hsla(241, 72%, 46%, 0)
-    );
+.circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1),
+            hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-    width: 160px;
-    height: 160px;
+    width: 187px;
+    height: 187px;
     margin: auto;
     margin-top: 30px;
 }
 
-.circle h1{
-color: white;
-font-size: 50px;
-margin: 0;
-padding: 0;
-padding-top: 40px;
+.circle h1 {
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
 }
 
-.circle p{
+.circle p {
     font-size: 12px;
     margin: 0;
     padding: 0;
@@ -82,97 +80,104 @@ padding-top: 40px;
 
 /* Summary side */
 
-.summary{
-    width: 290px;
+.summary {
+    width: 324px;
     text-align: center;
 }
 
-.summary h2{
-    font-size: 18px;
+.summary h2 {
+    font-size: 20px;
     margin: 20px 200px 20px 30px;
 }
 
-.percent{
+.percent {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 200px;
+    width: 233px;
     margin: auto;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 15px;
 }
 
-.react{
+.react {
     background-color: #FFF6F5;
     padding: 0 15px;
     font-weight: 700;
-    color: hsl(0, 100%, 67%);   
+    color: hsl(0, 100%, 67%);
 }
 
-.react h3, .memory h3, .verb h3, .visual h3{
- font-size: 14px;
+.react h3,
+.memory h3,
+.verb h3,
+.visual h3 {
+    font-size: 16px;
 }
 
-.react p, .memory p, .verb p, .visual p{
+.react p,
+.memory p,
+.verb p,
+.visual p {
     font-weight: 900;
     color: hsl(224, 30%, 27%);
 }
 
-.memory{
+.memory {
     background-color: #FFFBF2;
     padding: 0 15px;
     font-weight: 700;
-    color: hsl(39, 100%, 56%); 
+    color: hsl(39, 100%, 56%);
 }
 
-.verb{
+.verb {
     background-color: #F2FBFA;
     padding: 0 15px;
     font-weight: 700;
     color: hsl(166, 100%, 37%);
 }
 
-.visual{
+.visual {
     background-color: #F3F3FD;
     padding: 0 15px;
     font-weight: 700;
     color: hsl(234, 85%, 45%);
 }
 
-span{
+span {
     font-weight: 700;
     color: hsl(166, 100%, 37%);
 }
 
-i{
-    font-size: 17px;
+i {
+    font-size: 20px;
     padding-right: 5px;
 }
 
-button{
-    width: 200px;
-    height: 40px;
+button {
+    width: 206px;
+    height: 44px;
     border-radius: 50px;
     border-style: none;
     background-color: hsl(224, 30%, 27%);
     color: white;
     margin-top: 40px;
     font-weight: 600;
+    font-size: 1rem;
 }
 
-button:hover{
+button:hover {
     background-color: hsl(234, 85%, 45%);
 }
 
 @media (max-width: 500px) {
-    body{
+    body {
         margin: 0;
         padding: 0;
 
     }
 
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -181,7 +186,7 @@ button:hover{
     }
 
     .circle {
-        background: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+        background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
         border-radius: 50%;
         width: 130px;
         height: 130px;
@@ -189,48 +194,59 @@ button:hover{
         margin-top: 14px;
     }
 
-    .result{
+    .result {
         width: 100%;
+        height: 312px;
         padding: 0;
         border-radius: 0 0 20px 20px;
     }
-    
+
     .result h2 {
         color: hsl(241, 100%, 89%);
         font-size: 17px;
-        margin-top: 35px;
+        margin-top: 16px;
     }
-    
+
 
     .result h1 {
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 11px;
     }
-    .result p {
-        color: hsl(241, 100%, 89%);
-        font-size: 13px;
-        margin: 34px;
-        margin-top: 19px;
+
+    .circle h1{
+        font-size: 40px;
+        padding-top: 30px;
     }
 
-    .summary{
+
+    .result p {
+        color: hsl(241, 100%, 89%);
+        font-size: 15px;
+        margin: 38px;
+        margin-top: 0px;
+    }
+
+    .circle p{
+        font-size: 11px;
+    }
+
+    .summary {
         display: contents;
         text-align: left;
     }
 
-    .summary h2{
+    .summary h2 {
         margin: 20px 208px 0px 31px;
     }
 
-    .percent{
-        width: 250px;
+    .percent {
+        width: 70%;
+        margin-top: 11px;
     }
 
-    button{
+    button {
         margin: auto;
         margin-top: 40px;
     }
 }
-
-
